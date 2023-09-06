@@ -103,19 +103,18 @@ html, body {
     justify-content: space-evenly;
 
 }
-#project1, #project2, #project3, #project4{
-    /* background-color: yellow; */
+.proj {
     height: 49%;
     padding: 15px 10px;
     width: 24%;
     border: 2px solid #6E260E;
     border-radius: 20px;
 }
-#project1:hover, #project2:hover, #project3:hover, #project4:hover {
+.proj:hover {
     width: 25%;
     height: 50%;
 }
-#project1 p, #project2 p, #project3 p , #project4 p {
+.proj p {
     height: 80%;
     padding: 10px 0;
     margin: 5px 0;
